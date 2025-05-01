@@ -26,12 +26,12 @@ import tgcrypto
 import cloudscraper
 
 bot = Client("bot",
-             bot_token='add',
-             api_id=add,
-             api_hash='add')
+             bot_token= "6554efd9d72c95f3fdd600d76e37ed53" ,
+             api_id= "28274437" ,
+             api_hash= "6554efd9d72c95f3fdd600d76e37ed53")
 
-owner_id = [6530997270]
-auth_users = [6530997270]
+owner_id = [795680609]
+auth_users = [795680609]
 photo1 = 'https://envs.sh/PQ_.jpg'
 getstatusoutput(f"wget {photo1} -O 'photo.jpg'")
 photo = "photo.jpg"
